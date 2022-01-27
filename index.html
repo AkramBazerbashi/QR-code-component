@@ -10,19 +10,52 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; margin-top: 40px; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    @font-face {
+      font-family: "Outfit";
+      src: url("https://fonts.google.com/specimen/Outfit");
+    }
+
+    div {border-radius:20px; font-family: "Outfit";}
+    img {border-radius:10px}
+    body { background-color :hsl(212, 45%, 89%);}
+    
+    * {box-sizing: border-box;}
   </style>
 </head>
 <body>
 
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  <div  style = "background-color :hsl(0, 0%, 100%);
+                width :270px;
+                height :430px;
+                margin-left : 548px;
+                margin-top : 130px; ">
+    <img  src="images\image-qr-code.png"
+          style = "margin :15px 15px 25px 15px;
+                  width :240px;
+                  height :240px" >
+    <div  style = "color :hsl(218, 44%, 22%);
+                  margin :0px 15px 15px 15px;
+                  font-weight :700;
+                  text-align: center;">
+      Improve your front-end skills by building projects
+    </div>
+    <div  style = "color :hsl(220, 15%, 55%);
+                  margin :0 15px 25px 15px;
+                  font-weight :400;
+                  text-align: center;">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </div>
+  </div>
+  
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  
+  
 </body>
 </html>
